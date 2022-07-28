@@ -1,0 +1,24 @@
+h1,h2,h3,h4,h5,h6{
+    color: red;
+    font-style: oblique;
+    font-size: 20;
+    font-family: Georgia, 'Times New Roman', Times,sans-serif;
+    text-align: center;
+
+}
+
+p{
+    color: rgb(51, 75, 206);
+    font-style: italic;
+    font-size: 12;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.class{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: bisque;
+}
