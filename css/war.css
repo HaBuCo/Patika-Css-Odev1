@@ -20,11 +20,12 @@ p{
 }
 
 html { 
-    background: url(/images/war.jpg) no-repeat center center fixed; 
+  background-color: rgb(24, 24, 34);
+    /* background: url(/images/war.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .menu ul{
@@ -36,7 +37,7 @@ html {
   .menu li{
     float: left;
     position: relative;
-    width: 160px;
+    width: 377px;
   }
    
   .menu ul li ul{
@@ -79,10 +80,25 @@ html {
   }
 
 
-    footer {
-        text-align: center;
-        padding: 10px;
-        background-color: red;
-        color: white;
-        font-size: large;
+  footer {
+      text-align: center;
+      padding: 10px;
+      background-color: rgb(116, 67, 67);
+      color: white;
+      font-size: large;
+  }
+
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
       }
+
+  img {
+      border-radius: 8px;
+      }
+      
+  a{
+    color: rgb(255, 255, 255);
+  }

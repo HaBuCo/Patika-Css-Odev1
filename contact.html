@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İletişim</title>
+    <title>WARPEDİA | İLETİŞİM</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
-    
+    <h2>İLETİŞİM</h2>
+    <hr> 
+    <article>
+    <p><strong>Mail :</strong></p>
+    <img src="/images/mail.jpg" alt="mail" style="width: 20px;height: 20px;">
+    <a href="mailto:kodluyoruz.org">kodluyoruz.org</a>
+   
+    <br>
+    <p><strong>Telefon :</strong></p>
+    <img src="/images/telefon-icon.png" alt="telefon" style="width: 20px;height: 20px;">
+    <a href="tel:123-456-7890">123-456-7890</a>
+    </article>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="türkiye">Türkiye</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+    <footer>
+        <p><a href="index.html"><strong>Warpedia</strong></a></p>
+      <p><a href="contact.html"><strong>İletişim</strong></a></p>
+      <p><a href="about-us.html"><strong>Hakkımızda</strong><a></p>
+    </footer>   
 </body>
 </html>
